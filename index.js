@@ -8,10 +8,9 @@ const {
 } = require("./config/config");
 const app = express();
 
+const mongoURL = `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_IP}:${MONGO_PORT}/?authSource=admin`;
 mongoose
-  .connect(
-    `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_IP}:${MONGO_PORT}/?authSource=admin`
-  )
+  .connect(mongoURL)
   .then(() => console.log("Successfully connected to DB"))
   .catch((e) => console.log(e));
 app.get("/", (req, res) => {
