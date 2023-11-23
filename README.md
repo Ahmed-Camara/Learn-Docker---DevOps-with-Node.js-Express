@@ -35,4 +35,22 @@
     <li>Express CORS</li>
 </ul>
 
+
+#### Day 3
+
+<ul>
+    <li>Installing docker on Ubuntu(Digital Ocean)</li>
+    <li>Setup Git</li>
+    <li>Environment Variables on Ubuntu</li>
+    <li>Deploying app to production server</li>
+    <li>Pushing changes the hard way</li>
+    <li>Rebuilding Containers</li>
+    <li>Dev to Prod workflow review</li>
+    <li>Improved Dockerhub workflow</li>
+    <li>Automating with watchtower</li>
+    <li>Why we need an orchestrator</li>
+    <li>Docker Swarm</li>
+    <li>Pushing changes to Swarm stack</li>
+</ul>
+
 ##### N.B: The complete course can be watched at this <a href="https://www.youtube.com/watch?v=9zUHg7xjIqQ">link</a>
