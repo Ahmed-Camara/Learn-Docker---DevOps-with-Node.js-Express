@@ -54,5 +54,9 @@
 </ul>
 
 # How to use it ?
-#### xx
+### 1. Start docker on local machine
+### 2. When we want to run it dev mode : docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build -V
+### 3. When we want to run it prod mode : docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build -V
+### 4. When we want to scale multiple node-app instance : docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build --scale node-app=x (x is the number of instance for example it may be 2 or 3 or ...)
+### 5. When we want to turn down everything : docker-compose -f docker-compose.yml -f docker-compose.dev.yml down
 ##### N.B: The complete course can be watched at this <a href="https://www.youtube.com/watch?v=9zUHg7xjIqQ">link</a>
